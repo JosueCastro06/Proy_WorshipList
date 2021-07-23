@@ -29,7 +29,7 @@
 
 .body{
 
-background: var(--greyLight-1);
+    background: var(--greyLight-1);
 
 }
 
@@ -77,9 +77,16 @@ background: var(--greyLight-1);
 
 .botones_tabla-container {
 
+    margin: 5% 5%;
+    display: flex;
+
 }
 
 .botones-container {
+
+    margin-left: 5%;
+    display: block;
+    align-self: center;
 
 }
 
@@ -89,7 +96,7 @@ background: var(--greyLight-1);
 
     margin: 50px;
     font-family: 'Montserrat';
-    width: 15rem;
+    width: 20rem;
     height: 4rem;
     border-radius: 3rem;
     box-shadow: var(--shadow);
@@ -137,7 +144,7 @@ background: var(--greyLight-1);
 
     
     align-self: center;
-    
+    display: block;
     width: 100%;
     margin: 5%;
     text-align: -webkit-center;
@@ -150,6 +157,7 @@ background: var(--greyLight-1);
     font-family: arial, sans-serif;
     border-collapse: collapse;
     box-shadow: var(--shadow);
+    color: #707070;
 
 }
 
@@ -162,7 +170,7 @@ background: var(--greyLight-1);
 td, th {
       
     font-family: 'Montserrat';
-    border: 1px solid #C9C9C9;
+    border: 2px solid #C9C9C9;
     text-align: center;
     padding: 8px;
   }
@@ -194,3 +202,46 @@ tr:nth-child(even) {
 }
 
 
+/*___________RESPONSIVE____________*/
+
+@media screen and (max-width: 1000px) {
+
+    .botones_tabla-container{
+
+        display: block;
+        margin: 0%;
+
+    }
+
+    .botones-container{
+
+        margin: 10% 0 8% 0;
+        text-align: -webkit-center;
+        
+
+    }
+
+    .table-container{
+
+        margin: 0%;
+
+
+    }
+    
+    .btn{
+
+        margin: 50px 0;
+
+    }
+
+
+    
+}
+
+@media screen and (max-width: 500px) {
+
+
+
+
+    
+}
