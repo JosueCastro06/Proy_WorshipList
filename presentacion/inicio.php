@@ -26,13 +26,13 @@
                 </tr>
                 <tr>
                     <td class="table-title">Canción 2<br><p style="font-size: 15px; margin: 0;">autor</p></td>
-                    <td class="ir-cancion"><svg xmlns="http://www.w3.org/2000/svg" width="15.869" height="25.699" viewBox="0 0 15.869 25.699">
+                    <td class="ir-cancion"><a href="##"><svg xmlns="http://www.w3.org/2000/svg" width="15.869" height="25.699" viewBox="0 0 15.869 25.699">
                         <path class="next-btn" id="Icon_material-navigate-next" data-name="Icon material-navigate-next" d="M15.9,9l-3.02,3.02,9.808,9.83-9.808,9.83L15.9,34.7,28.754,21.849Z" transform="translate(-12.885 -9)" fill="#b7b7b7"/>
                       </svg></a></td>
                 </tr>
                 <tr>
                     <td class="table-title">Canción 3<br><p style="font-size: 15px; margin: 0;">autor</p></td>
-                    <td class="ir-cancion"><a href="#" ><svg xmlns="http://www.w3.org/2000/svg" width="15.869" height="25.699" viewBox="0 0 15.869 25.699">
+                    <td class="ir-cancion"><a href="###" ><svg xmlns="http://www.w3.org/2000/svg" width="15.869" height="25.699" viewBox="0 0 15.869 25.699">
                         <path class="next-btn" id="Icon_material-navigate-next" data-name="Icon material-navigate-next" d="M15.9,9l-3.02,3.02,9.808,9.83-9.808,9.83L15.9,34.7,28.754,21.849Z" transform="translate(-12.885 -9)" fill="#b7b7b7"/>
                       </svg></img></a></td>
                 </tr>
