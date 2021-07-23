@@ -77,7 +77,7 @@
 
 .botones_tabla-container {
 
-    margin: 5% 5%;
+    margin: 2% 5% 0% 5%;
     display: flex;
 
 }
@@ -87,6 +87,8 @@
     margin-left: 5%;
     display: block;
     align-self: center;
+    width: 50%;
+    text-align: -webkit-center;
 
 }
 
@@ -145,10 +147,11 @@
     
     align-self: center;
     display: block;
-    width: 100%;
     margin: 5%;
     text-align: -webkit-center;
     animation: tableanima 2s;
+    width: 50%;
+    transition: 1s ease-in-out;
 
   }
 
@@ -173,6 +176,8 @@ td, th {
     border: 2px solid #C9C9C9;
     text-align: center;
     padding: 8px;
+    background-color: #fff;
+
   }
 
 .table-title{
@@ -191,12 +196,68 @@ tr:nth-child(even) {
 
   }
 
-  /*___ANIMACIÓN___*/
+.next-btn{
+    width: 20px;
+    transition: 0.2s linear;
+}
+
+.next-btn:hover{
+
+    fill: var(--primary);
+
+}
+
+  /*___ANIMACIÓN___TABLA___*/
 
 @keyframes tableanima {
 
     0%{opacity: 0%;}
-    60%{opacity: 0%;}
+    70%{opacity: 0%;}
+    100%{opacity: 100%;}
+
+}
+
+/*________NOSOTROS________CLASE: ABOUT___________*/
+
+.About{
+
+
+
+}
+
+.About-container{
+
+    text-align: center;
+
+}
+
+.About-img{
+
+    height: 100px;
+    animation: aboutanima 2s;
+    transition: 0.5s ease;
+
+}
+
+.About-img:hover{
+
+    fill: var(--primary);
+
+}
+
+
+.About{
+
+
+
+}
+
+/*___ANIMACIÓN____*/
+
+@keyframes aboutanima{
+
+    0%{opacity: 0%;}
+    80%{opacity: 0%;}
     100%{opacity: 100%;}
 
 }
@@ -209,7 +270,7 @@ tr:nth-child(even) {
     .botones_tabla-container{
 
         display: block;
-        margin: 0%;
+        margin: 0% 0 0% 0;
 
     }
 
@@ -217,13 +278,15 @@ tr:nth-child(even) {
 
         margin: 10% 0 8% 0;
         text-align: -webkit-center;
+        width: 100%;
         
 
     }
 
     .table-container{
 
-        margin: 0%;
+        margin: 0% 0 5% 0;
+        width: 100%;
 
 
     }
