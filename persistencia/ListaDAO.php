@@ -10,5 +10,13 @@ class ListaDAO {
         $this -> dia = $dia;
     }
 
+    public function insertarLista(){
+        return "insert into Lista (dia)
+                values ('" . $this -> dia . "')";
+    }
+
+    
+
+
 
 }

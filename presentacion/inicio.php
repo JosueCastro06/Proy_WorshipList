@@ -1,6 +1,6 @@
 
 <div id="LogoWL-container">
-    <img id= "LogoWL" src="img/LogoWL.svg" alt="LogoWL">
+    <img id= "LogoWL" src="img/LogoWL.png" alt="LogoWL">
 </div>
 
     <div class="botones_tabla-container">
@@ -43,7 +43,7 @@
 
     </div>
 
-    <footer class="About-container"><a class="About" href="###">
+    <footer class="About-container"><a class="About" href="index.php?pid=<?php echo base64_encode("presentacion/nosotros.php")?>">
         <!--<img class="About-img" src="img/Nosotros_icono.svg">-->
         <svg xmlns="http://www.w3.org/2000/svg" width="148" height="102.817" viewBox="0 0 148 102.817">
             <g id="Grupo_20" data-name="Grupo 20" transform="translate(-1707 -940.183)">
