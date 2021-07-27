@@ -1,4 +1,3 @@
-
 <div id="LogoWL-container">
     <img id= "LogoWL" src="img/LogoWL.png" alt="LogoWL">
 </div>
@@ -7,10 +6,10 @@
 
         <div class="botones-container">
             <div>
-                <a class="btn btn__1" href="index.php?pid=<?php echo base64_encode("presentacion/lista/CrearLista.php")?>" style="text-decoration: none;">Crear Lista</a>
+                <a class="btn btn__1" href="index.php?pid=<?php echo base64_encode("src/lista/crearLista.php")?>" style="text-decoration: none;">Crear Lista</a>
             </div>
             <div>
-                <a class="btn btn__1" href="index.php?pid=<?php echo base64_encode("presentacion/cancion/CrearCancion.php")?>" style="text-decoration: none;">Crear Canción</a>
+                <a class="btn btn__1" href="index.php?pid=<?php echo base64_encode("src/cancion/crearCancion.php")?>" style="text-decoration: none;">Crear Canción</a>
             </div>
         </div>
 

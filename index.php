@@ -1,14 +1,11 @@
 <?php
 
 session_start();
-require_once 'logica/Cancion.php';
-require_once 'logica/Lista.php';
 
 $pid = '';
 if(isset($_GET['pid'])) {
     $pid = base64_decode($_GET['pid']);
 }
-
 ?>
 
 <html>
@@ -26,15 +23,15 @@ if(isset($_GET['pid'])) {
     <?php
 
         $paginaSinSesion = array(
-            "presentacion/lista/CrearLista.php",
-            "presentacion/cancion/CrearCancion.php",
-            "presentacion/nosotros.php"
+            "src/lista/crearLista.php",
+            "src/cancion/crearCancion.php",
+            "src/nosotros.php"
         );
 
         if (in_array($pid, $paginaSinSesion)){
             include $pid;
-        }else {
-            include 'presentacion/inicio.php';
+        } else {
+            include 'src/inicio.php';
         }
 
 
