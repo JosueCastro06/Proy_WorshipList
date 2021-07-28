@@ -1,5 +1,4 @@
 <?php
-
     $servidor = "localhost";
     $usuario = "root";
     $clave = "";
@@ -10,9 +9,6 @@
     if(!$enlace){
         echo "Error en la conexion";
     }
-
-
-
 ?>
 
 <form action="index.php?pid=<?php echo base64_encode("src/cancion/crearCancion.php")?>" method="POST" enctype="multipart/form-data">
@@ -30,8 +26,8 @@
     </select>
 
     <br>
-    
-    <textarea name="letra" class="textarea-input"></textarea>
+
+    <textarea rows="20" name="letra" class="textarea-input"></textarea>
 
     <input type="submit" name="insertar">
 
