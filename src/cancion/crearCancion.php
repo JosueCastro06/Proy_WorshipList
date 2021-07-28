@@ -17,10 +17,10 @@
 
 <form action="index.php?pid=<?php echo base64_encode("src/cancion/crearCancion.php")?>" method="POST" enctype="multipart/form-data">
 
-    <?php echo 'entro al form'?>
     <input type="text" name="nombre" class="nombre-input" placeholder="Nombre de la canción" required>
     <input type="text" name="autor" class="autor-input" placeholder="autor de la cancion" required>
-    <textarea name="letra" class="textarea-input"></textarea>
+
+    <br>
 
     <select class="datalist-tipo" name="tipo" required>
 
@@ -28,6 +28,10 @@
         <option value="Adoración">Adoracion</option>
 
     </select>
+
+    <br>
+    
+    <textarea name="letra" class="textarea-input"></textarea>
 
     <input type="submit" name="insertar">
 
